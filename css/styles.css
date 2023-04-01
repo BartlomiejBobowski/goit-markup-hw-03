@@ -146,6 +146,9 @@ body {
   line-height: 1.19;
   color: var(--contact-color);
 }
+.section-our-squad {
+  background-color: var(--background-color-of-crew);
+}
 .main-board,
 .page-footer {
   background-color: var(--background-color-of-footer);

@@ -44,7 +44,6 @@ body {
 /* PAGE LOGO */
 .header-logo {
   font-family: var(--font-secondary);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -69,7 +68,7 @@ body {
 }
 .navigation-link {
   font-family: var(--font-primary);
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -85,7 +84,6 @@ body {
 }
 .header-contact-link {
   font-family: var(--font-primary);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -111,7 +109,6 @@ header {
 .solution-title {
   color: var(--color-text-white);
   font-family: var(--font-primary);
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -130,13 +127,10 @@ header {
   border-radius: 4px;
   border: none;
   font-family: var(--font-primary);
-  font-style: normal;
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.9;
   /* identical to box height, or 188% */
 
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -155,7 +149,7 @@ header {
 }
 .advantages-title {
   font-family: var(--font-primary);
-  font-style: normal;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -166,7 +160,7 @@ header {
 }
 .advatages-describtion {
   font-family: var(--font-primary);
-  font-style: normal;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -177,7 +171,6 @@ header {
 }
 .our-job-title {
   font-family: var(--font-primary);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
@@ -197,7 +190,6 @@ header {
 }
 .our-squad-title {
   font-family: var(--font-primary);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
@@ -221,9 +213,7 @@ header {
 }
 .our-squad-name {
   font-family: var(--font-primary);
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.9;
   /* identical to box height */
 
@@ -234,9 +224,7 @@ header {
 }
 .our-squad-rank {
   font-family: var(--font-primary);
-  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.9;
   /* identical to box height */
 
@@ -247,19 +235,16 @@ header {
 }
 
 .footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 .footer-logo {
   font-family: var(--font-secondary);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   /* identical to box height */
 
   letter-spacing: 0.03em;
-
   color: var(--color-hover);
 }
 .footer-logo-span {
@@ -269,12 +254,12 @@ header {
   font-family: var(--font-primary);
   font-style: normal;
   font-weight: 400;
+
   font-size: 14px;
   line-height: 1.7;
   /* or 171% */
 
   letter-spacing: 0.03em;
-
   color: var(--color-text-white);
   margin-top: 20px;
   display: flex;
@@ -285,12 +270,12 @@ header {
   font-family: var(--font-primary);
   font-style: normal;
   font-weight: 400;
+
   font-size: 14px;
   line-height: 1.7;
   /* or 171% */
 
   letter-spacing: 0.03em;
-
   color: var(--color-text-grey-opacity);
 }
 .filter {
@@ -305,15 +290,12 @@ header {
   border: none;
   border-radius: 4px;
   font-family: var(--font-primary);
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
   /* identical to box height, or 162% */
 
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--color-text-main);
   padding: 6px 22px;
 }
@@ -345,7 +327,6 @@ header {
 }
 .project-name {
   font-family: var(--font-primary);
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -355,9 +336,7 @@ header {
 }
 .project-kind {
   font-family: var(--font-primary);
-  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.9;
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;

@@ -59,6 +59,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .navigation {
   display: flex;
@@ -131,8 +132,6 @@ header {
   line-height: 1.9;
   /* identical to box height, or 188% */
 
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   padding: 10px 41px 10px 42px;
   margin-bottom: 200px;
@@ -262,8 +261,6 @@ header {
   letter-spacing: 0.03em;
   color: var(--color-text-white);
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
   gap: 9px;
 }
 .footer-ref {
@@ -317,9 +314,8 @@ header {
   margin-bottom: 94px;
 }
 .project-description {
-  border-right: 1px solid var(--color-border-line);
-  border-left: 1px solid var(--color-border-line);
-  border-bottom: 1px solid var(--color-border-line);
+  border: 1px solid var(--color-border-line);
+  border-top: none;
   display: flex;
   flex-direction: column;
   gap: 4px;

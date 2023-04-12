@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <title>Main Page</title>
     <link
       rel="stylesheet"
@@ -19,27 +18,28 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <div class="container header-container">
         <!-- Logo -->
+        <a href="./index.html" class="header-logo"
+          >Web<span class="header-logo-span">Studio</span></a
+        >
         <nav>
-          <a href="./index.html" class="header-logo"
-            >Web<span class="header-logo-span">Studio</span></a
-          >
+          <ul class="navigation">
+            <li class="navigation-item">
+              <a class="navigation-link" href="./index.html">Agencja</a>
+            </li>
+
+            <li class="navigation-item">
+              <a class="navigation-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="navigation-item"><a class="navigation-link" href="#">Kontakty</a></li>
+          </ul>
         </nav>
         <!-- Navigation -->
-
-        <ul class="navigation">
-          <li class="navigation-item">
-            <a class="navigation-link" href="./index.html">Agencja</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="navigation-item"><a class="navigation-link" href="#">Kontakty</a></li>
-        </ul>
 
         <!-- Header contact -->
         <ul class="header-contact">
@@ -63,7 +63,7 @@
       </section>
       <!-- Advantages -->
       <section class="advantages">
-        <div class="advantages-container">
+        <div class="class advantages-container">
           <ul class="advantages-list container">
             <li class="advantages-item">
               <h3 class="advantages-title">LOREM IPSUM</h3>
@@ -178,7 +178,7 @@
         <!-- Aaddress footer -->
         <address class="footer-address">
           <ul>
-            <li style="padding-bottom: 9px"><p>m. Warszawa, Aleje Jerozolimskie 21</p></li>
+            <li style="padding-bottom: 9px">m. Warszawa, Aleje Jerozolimskie 21</li>
 
             <li style="padding-bottom: 9px">
               <a href="mailto:info@example.com" class="footer-ref">info@example.com</a>

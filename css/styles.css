@@ -58,13 +58,13 @@ body {
 }
 .header-container {
   display: flex;
+  height: 80px;
   align-items: center;
 }
 .navigation {
   display: flex;
   gap: 46px;
-  margin-right: 371px;
-  padding: 32px 0;
+  margin-right: 375px;
 }
 .navigation-link {
   font-family: var(--font-primary);
